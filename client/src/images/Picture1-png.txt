@@ -1,0 +1,42 @@
+Let the solution be u(x,t) = X(x).T(t) ...(ii)
+Using (ii) in (1).
+X'T = 2XT' + XT
+⇒ (X' - X)T = 2XT'
+=
+X' - X
+X
+=
+2T'
+T
+=
+k (say)
+X' - X
+Now, solving
+= k
+X
+X'
+X
+On integrating,
+log X = (k+1)x + log C1
+⇒ log X = (k+1) loge + log C1
+⇒ log X = log e(+1) + log C1
+⇒ X = C1e(k+1)z
+On solving
+2T' = k
+T
+介
+T' k
+T
+2
+On integrating.
+k
+log T = t
+t+log C2
+⇒ T = C2ekt/2
+.. u(x,t) = X.T C1e(k+1).C2ekt/2
+= C1C2e(k+1)z+kt/2
+When t=0,
+u(x, 0) = CC2e(k+1)z = 6e¬3z
+On comparing
+C1C26, k+1=-3⇒ k=-4
+.. u(x,t) = 6e-3x-2=6e-(3x+2)

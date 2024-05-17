@@ -1,0 +1,52 @@
+
+@font-face {
+  font-family: poppins;
+  src: url(../font//Poppins-Regular.ttf);
+}
+* {
+  font-family: poppins !important;
+}
+
+.about-tag {
+  margin-top: 3rem;
+  border-bottom: 1px solid #1a1a1d;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 50px !important;
+}
+.about-h {
+  font-size: 25px;
+  border-bottom: 1px solid #1a1a1d;
+  margin-bottom: 50px !important;
+}
+.team {
+  font-size: 25px;
+  border-bottom: 1px solid #1a1a1d;
+  margin-bottom: 50px !important;
+  font-weight: bold;
+}
+.img {
+  height: 25rem !important;
+  width: 25rem !important;
+}
+.card {
+  width: 25.1rem !important;
+  border-radius: 25px;
+  transform: translateY(10px) !important;
+  transition: 0.5s all !important;
+}
+.card:hover {
+  opacity: 1 !important;
+  transform: translateY(2px) !important;
+}
+
+.box {
+  border-radius: 25px !important;
+  transform: translateY(10px) !important;
+  transition: 0.5s all !important;
+}
+.box:hover{
+    opacity: 1 !important;
+  transform: translateX(2px) !important;
+}
+

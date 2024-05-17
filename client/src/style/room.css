@@ -1,0 +1,35 @@
+.img-new{
+  max-height: 300px;
+}
+.card{
+  margin: 5% 0%;
+}
+
+.card-body{
+  margin: 0% 0% 0% 4%;
+  padding: 2% 0%;
+}
+.card-src{
+  max-width: 400px;
+}
+.check{
+  margin-top: 30px;
+  padding: 12px;
+  font-size: 18px;
+}
+
+.notcontain{
+  display: flex;
+  flex-direction: column;
+  max-width: 100% !important;
+  padding: 10px 20px;
+  position: relative;
+  left: 90%;
+}
+
+.container-area{
+  display: flex !important;
+  max-width: 80%;
+  margin: auto;
+  padding: 10px;
+}

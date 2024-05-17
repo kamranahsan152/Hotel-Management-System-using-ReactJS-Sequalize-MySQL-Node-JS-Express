@@ -1,0 +1,108 @@
+@font-face {
+  font-family: coco;
+  src: url(../font/coco.ttf);
+}
+@font-face {
+  font-family: poppins;
+  src: url(../font//Poppins-Regular.ttf);
+}
+
+.bg-custom {
+  background-color: #1a1a1d;
+}
+
+.nav-brand {
+  font-weight: bolder !important;
+  font-size: 30px !important;
+}
+.nav-bottom{
+  margin-bottom: 6rem !important;
+}
+.nk-custom {
+  color: rgb(250, 252, 252);
+}
+.h-custom {
+  color: #c3073f;
+}
+.nav-custom {
+  color: rgb(250, 252, 252) !important;
+  font-size: 18px !important;
+  margin-left: 5px;
+  border-radius: 25px;
+  padding: 10px 20px;
+}
+.nav-custom:hover {
+  background-color: #c3073f;
+  color: rgb(250, 252, 252);
+  transition: 0.5s ease;
+}
+.drop-custom {
+  background-color: #c3073f;
+  border-radius: 25px;
+}
+
+.active {
+  background-color: #c3073f;
+}
+.nav-acc{
+    background-color: rgb(250, 252, 252);
+    color:#1a1a1d;
+    font-size: 18px !important;
+    border-radius: 25px;
+    margin-left: 10px;
+  padding: 10px 20px;
+
+}
+.fixed-top{
+  background-color: #1a1a1d;
+  display: flex;
+  justify-content: space-around;
+}
+.account{
+  font-size: 18px !important;
+  padding: 12px;
+  text-align: center;
+}
+/* .dropdown-menu {
+  min-width: 8.2rem !important;
+} */
+/* .dropdown-item {
+  color: rgb(250, 252, 252) !important;
+  text-align: center !important;
+  padding: 5px !important;
+  outline: none;
+  border: none;
+} */
+
+/* .dropdown-item.active {
+  background-color: #e60448;
+  border-radius: 25px;
+} */
+
+/* .dropdown-item:hover {
+  background: transparent;
+  background-color: #e60448;
+  border-radius: 25px;
+} */
+.navbar-brand {
+  font-family: coco !important;
+}
+.nav-bar-options ul {
+  list-style-type: none !important;
+  display: flex !important;
+}
+.nav-bar-options ul li {
+  transition: 0.5s ease !important;
+}
+.nav-bar-options ul li:hover {
+  background-color: rgb(30, 98, 214) !important;
+  color: white !important;
+  transform: translateY(1px) !important;
+}
+.nav-bar-options ul li a {
+  text-decoration: none !important;
+  font-size: 18px !important;
+  align-content: center !important;
+  border-radius: 75px !important;
+  transition: 0.5s ease !important;
+}

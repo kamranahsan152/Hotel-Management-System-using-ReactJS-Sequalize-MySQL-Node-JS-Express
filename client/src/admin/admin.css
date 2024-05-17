@@ -1,0 +1,26 @@
+.icon-area{
+    height: 40px !important;
+}
+.bg-l{
+    transition: all 0.5 ease;
+}
+.bg-l:hover{
+    border-radius: 25px;
+    background-color: #eeeeeee5;
+    cursor: pointer;
+}
+.side-area h4{
+    font-size:35px;
+}
+.side-area{
+    border-top-right-radius: 50px !important;
+    height: 90vh;
+    width: 100%;
+}
+.active-custom{
+    background-color: rgb(30, 98, 214);
+    border-radius: 50px !important;
+}
+.nav ul li a.active{
+    background-color: rgb(3, 78, 207) !important;
+}

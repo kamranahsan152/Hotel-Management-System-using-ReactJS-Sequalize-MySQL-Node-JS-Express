@@ -1,0 +1,10 @@
+@font-face {
+  font-family: utd-cond;
+  src: url(../font/UnitedSansCond-Bold.otf);
+}
+
+.title-sec{
+  font-size: 60px !important;
+  font-family: utd-cond !important;
+  text-transform: uppercase;
+}
